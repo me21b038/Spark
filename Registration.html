@@ -1,0 +1,195 @@
+<html>
+<title>Shaastra 2023</title>
+<link rel='icon' href='favicon.png' />
+<style type="text/css">
+body {
+ background-image: url('bg.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+.Home {
+  color: white;
+}
+.About {
+  color: white;
+}
+.Details {
+  color: white;
+}
+.Registration {
+  color: white;
+}
+.Contact {
+  color: white;
+}
+.flex-parent {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+button.margin-right {
+  margin-right: 20px;
+}
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 43.25%;
+}
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid aqua;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.left {
+  left: 0;
+}
+.right {
+  left: 50%;
+}
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+.right::after {
+  left: -16px;
+}
+.content {
+  padding: 20px 20px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+@media screen and (max-width: 600px) {
+  .timeline::after {
+  left: 31px;
+  }
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  .container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+  .left::after, .right::after {
+  left: 15px;
+  }
+  .right {
+  left: 0%;
+  }
+}
+</style>
+<body>
+<h1 align="Center">
+<img src="Dice.svg" width="100" height="100">
+<font size=20 face="comic sans ms" color="white"><b>SHAASTRA 2023</b></font></h1>
+<h2 align="Center"><font size=20 face="Swis721 BlkEx BT" color="blue"><b>SPARK</b></font></h2>
+<div class="flex-parent jc-center">
+ <form action="HOME.html">
+         <button type="submit" class="btn Home"><font size=6>Home</font></button>
+      </form>
+ <form action="About.html">
+         <button type="submit" class="btn About"><font size=6>About</font></button>
+      </form>
+ <form action="Details.html">
+         <button type="submit" class="btn Details"><font size=6>Details</font></button>
+      </form>
+<form action="Registration.html">
+         <button type="submit" class="btn Registration"><font size=6>Registration</font></button>
+      </form>
+<form action="Contact.html">
+         <button type="submit" class="btn Contact"><font size=6>Contact</font></button>
+      </form>
+</div>
+<table>
+<colgroup>
+<col span="1" style="background-color:pink">
+<col style="background-color:lightblue">
+</colgroup>
+<tr>
+<th><p>SPARK News Updates by Shaastra 2023</p></th>
+<th><p><marquee>Shaastra, IIT Madras presents Spark, an exciting nation wide quiz specifically for students from classes 8-12. Do be there to feed your knowledge hungry brains and test your mettle against the best.
+
+Shaastra spark will be held in the following cities:
+Chennai, Pune, Kolkata, Delhi, Madurai, Cochin, Trivandrum, Calicut, Coimbatore, Bhilai, Trichi, Chandigarh and Mumbai.Shaastra is back with another edition of SPARK."Last year's edition of the Spark was conducted in 20 cities and saw a participation of more than 3000+ students across the nation."-says the Director of IITM.
+</marquee></p></th>
+</tr>
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h3>11<sup>th</sup> October 2022 12:00 AM</h3>
+      <p>Registration Begins.Follow the instructions given in the Information Brochure.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h4>20<sup>th</sup> October 2022 11:59 PM</h4>
+      <p>Registration Closes.Further extension of the deadline will not be entertained.</p>
+    </div>
+  </div>
+<div class="container left">
+    <div class="content">
+      <h5>30<sup>th</sup> October 2022 9:00 AM</h5>
+      <p>Spark Quiz Preliminary Round.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
